@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="test.css" />
+</head>
+<body>
+   
+
+  <header>
+    <div class="user-info">
+    <h1 class="welcome-msg"></h1>
+    <a class="log-off" href="login.html">Log Off</a>
+  <div class="circle"       onclick="uploadImage()">
+      <input type="file" id="upload" class="hidden" accept="image/*" onchange="displayImage(event)" >
+   <div class="username"></div>
+    
+      </div>
+    </div>
+  
+  
+  
+  <nav>
+            <div class="container">
+              <h1 class="logo">Whiskers White</h1>
+              <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+          </nav>
+   <div class="hero">
+            <div class="container">
+              <h2 class="tagline">I am the one who meows.</h2>
+              <a href="#" class="btn">Explore More</a>
+            </div>
+          </div>
+        </header>
+  
+   <section class="about">
+          <div class="container">
+            <h2>About Whiskers White</h2>
+            <p>Whiskers White is a high school chemistry teacher cat turned methamphetamine kingpin. Known by his alias Heisenmeow, he operates in Albuquerque, New Mexico.</p>
+          </div>
+        </section>
+  
+  <section class="gallery">
+          <div class="container">
+            <h2>Gallery</h2>
+            <div class="image-grid">
+              <img class="monkey" src="https://static.stereogum.com/uploads/2013/02/walter_white_cat.jpeg" alt="Image 1">
+              <img class="monkey" src="https://ih1.redbubble.net/image.3991710097.9280/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg" alt="Image 2">
+              <img class="monkey" src="https://www.splendidbeast.com/wp-content/uploads/2020/12/cat-painting-10.jpg" alt="Image 3">
+              <img class="monkey" src="https://m.gjcdn.net/fireside-post-image/900/16854979-zmwxafqv-v4.jpg" alt="Image 4">
+            </div>
+          </div>
+        </section>
+
+        <div id="popup">
+          <div class="popup-content">
+            <span id="close-btn">x</span>
+            <img id="popup-img" src="" alt="Popup Image">
+          </div>
+  
+  <footer>
+          <div class="container">
+            <p>&copy; 2023 SimpleCod1ing. All rights reserved.</p>
+          </div>
+        </footer>
+</body>
+<script src="test.js"></script>
+</html>
